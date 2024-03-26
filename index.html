@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Pinoz Pizza</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JavaScript -->
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- Displaying my information -->
+    <div id="my-info"></div>
+    <!-- Form for ordering pizza -->
+    <form id="pizzaOrderForm">
+        <h2>Create Your Pizza</h2>
+        <!-- pizza size -->
+        <label for="size">Size:</label>
+        <select id="size" name="size">
+            <!-- pizza sizes with prices -->
+            <option value="small">Small ($8)</option>
+            <option value="medium">Medium ($10)</option>
+            <option value="large">Large ($12)</option>
+        </select><br>
+        
+        <fieldset>
+            <legend>Toppings:</legend>
+            <!-- various toppings  -->
+            <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
+            <label for="pepperoni">Pepperoni ($0.50)</label><br>
+            <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
+            <label for="mushrooms">Mushrooms ($0.50)</label><br>
+            <input type="checkbox" id="onions" name="toppings" value="onions">
+            <label for="onions">Onions ($0.50)</label><br>
+            <input type="checkbox" id="sausage" name="toppings" value="sausage">
+            <label for="sausage">Sausage ($0.50)</label><br>
+            <input type="checkbox" id="bacon" name="toppings" value="bacon">
+            <label for="bacon">Bacon ($0.50)</label><br>
+            <input type="checkbox" id="blackOlives" name="toppings" value="blackOlives">
+            <label for="blackOlives">Black Olives ($0.75)</label><br>
+            <input type="checkbox" id="pineapple" name="toppings" value="pineapple">
+            <label for="pineapple">Pineapple ($0.75)</label>
+        </fieldset><br>
+
+        <!-- Pizza crust -->
+        <label for="crust">Crust:</label>
+        <select id="crust" name="crust">
+            <!-- Crust types -->
+            <option value="regular">Regular ($0.5)</option>
+            <option value="thin">Thin ($1)</option>
+            <option value="thick">Thick ($2)</option>
+        </select><br>
+        
+        <!-- Button for submitting pizza order -->
+        <button type="button" id="orderButton">Order</button>
+    </form>
+    <div id="orderOutput"></div>
+</body>
+</html>

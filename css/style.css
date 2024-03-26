@@ -1,0 +1,65 @@
+/* Adding style for whole body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #52a189;
+    color: #333;
+}
+
+/* Adding style for form */
+#pizzaOrderForm {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 1px solid #04e7b6;
+}
+
+/* Adding style for output */
+#orderOutput {
+    margin: 20px auto;
+    width: 300px;
+    padding: 20px;
+    background-color: #dff0d8;
+    border-radius: 8px;
+    display: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Adding style for button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, opacity 0.2s;
+    font-weight: bold;
+}
+
+/* Adding style for button hover effect */
+button:hover {
+    opacity: 0.8;
+    background-color: #ebd300;
+}
+
+/* Adding style for input fields, select dropdowns, and textareas */
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Adding style for labels */
+label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+}
